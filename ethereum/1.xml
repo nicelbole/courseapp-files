@@ -1,0 +1,66 @@
+<les>
+<tit>Cos'è Ethereum?</tit>
+<pp>Ethereum: "il computer mondiale"</pp>
+<p>Ethereum è spesso descritto come "il computer mondiale". Ma cosa significa ciò? Cominceremo con una descrizione incentrata sull'informatica, per provare in seguita a decifrarla con un'analisi più pratica delle capacità e delle caratteristiche di Ethereum, confrontandolo con Bitcoin e altre piattaforme di scambio di informazioni decentralizzate (che chiameremo "blockchain" in breve).</p>
+<pp>Ethereum per l'informatica: una macchina a stati</pp>
+<p>Dal punto di vista dell'informatica, Ethereum è una macchina a stati deterministica ma praticamente illimitata, costituita da uno stato singoletto globalmente accessibile e una macchina virtuale che applica modifiche a tale stato.</p>
+<pp>Ethereum praticamente: una piattaforma basata su smart contract e blockchain</pp>
+<p>Da una prospettiva più pratica, Ethereum è un'infrastruttura informatica open source e decentralizzata a livello globale che esegue programmi chiamati <<smart contract>>. Utilizza una blockchain per sincronizzare e memorizzare i cambiamenti di stato del sistema, insieme a una criptovaluta chiamata <<ether>> per misurare e limitare i costi delle risorse di esecuzione.</p>
+<pp>Ethereum: i vantaggi della piattaforma</pp>
+<p>La piattaforma Ethereum consente agli sviluppatori di creare potenti applicazioni decentralizzate con funzioni economiche integrate. Oltre a fornire elevata disponibilità, verificabilità, trasparenza e neutralità, riduce o elimina anche la censura e riduce alcuni rischi di controparte.</p>
+<tit>Differenze con il Bitcoin</tit>
+<pp>Somiglianze tra Ethereum e Bitcoin</pp>
+<p>Molte persone che iniziano a interessarsi di Ethereum, dispongono già di una precedente esperienza con criptovalute, in particolare Bitcoin. Ethereum condivide molti elementi comuni con altre blockchain aperte: una rete peer-to-peer che collega i partecipanti, un algoritmo di consenso bizantino tollerante ai guasti per la sincronizzazione degli aggiornamenti di stato (una blockchain proof-of-work), l'uso di primitive crittografiche come firme digitali ed hash, ed una valuta digitale (ether).</p>
+<pp>L'unicità di Ethereum</pp>
+<p>Eppure, in molti modi, sia lo scopo che la costruzione di Ethereum sono sorprendentemente diversi da quelli delle blockchain aperte che lo hanno preceduto, incluso Bitcoin.</p>
+<pp>La criptovaluta non è il cuore di Ethereum</pp>
+<p>Lo scopo di Ethereum non è primariamente quello di essere una rete di pagamento in valuta digitale. Sebbene la valuta digitale ether sia parte integrante e necessaria per il funzionamento di Ethereum, essa è vista come <<valuta di utilità>> per pagare l'utilizzo della piattaforma Ethereum come computer mondiale.</p>
+<pp>Il linguaggio di scripting di Ethereum è Turing–completo</pp>
+<p>A differenza di Bitcoin, che ha un linguaggio di scripting molto limitato, Ethereum è progettato per essere una blockchain programmabile generica che esegue una <<macchina virtuale>> in grado di eseguire codice di complessità arbitraria e illimitata. Laddove il linguaggio Script di Bitcoin è, intenzionalmente, vincolato alla semplice valutazione vero/falso delle condizioni di spesa, il linguaggio di Ethereum è <<Turing completo>>, il che significa che Ethereum può funzionare direttamente come un computer generico.</p>
+<tit>Componenti di una blockchain</tit>
+<pp>Componenti di una blockchain</pp>
+<p>I componenti di una blockchain pubblica e aperta sono (di solito):</p>
+<ul>
+<li>Una rete peer-to-peer (P2P) che collega i partecipanti e propaga transazioni e blocchi di transazioni verificate, sulla base di su un protocollo "gossip" standardizzato</li>
+<li>Messaggi, sotto forma di transazioni, che rappresentano le transizioni di stato</p>
+<li>Un insieme di regole di consenso, che disciplinano cosa costituisce una transazione e cosa rende valida una transizione di stato</li>
+<li>Una macchina a stati che elabora le transazioni secondo le regole del consenso</li>
+<li>Una catena di blocchi protetti crittograficamente che funge da diario di tutte le transizioni di stato verificate e accettate</li>
+<li>Un algoritmo di consenso che decentralizza il controllo sulla blockchain, costringendo i partecipanti a cooperare nell'applicazione delle regole di consenso</li>
+<li>Uno schema di incentivazione teoricamente valido (ad esempio, costi di proof-of-work più ricompense di blocco) per proteggere economicamente la macchina statale in un ambiente aperto</li>
+<li>Una o più implementazioni software open source del sistema descritto sopra ("client")</li>
+</ul>
+<pp>La specifica di Ethereum</pp>
+<p>Tutti o la maggior parte di questi componenti sono generalmente combinati in un singolo client software. Ad esempio, in Bitcoin, l'implementazione di riferimento è sviluppata dal progetto open source <<Bitcoin Core>> e implementata come client <<bitcoind>>. In Ethereum, piuttosto che un'implementazione di riferimento c'è una <<specifica di riferimento>>, una descrizione matematica del sistema nello Yellow Paper. Ci sono un certo numero di client, che sono costruiti secondo la specifica di riferimento.</p>
+<pp>Le moderne blockchain</pp>
+<p>In passato, usavamo il termine "blockchain" per rappresentare tutti i componenti appena elencati, e riferirci in modo abbreviato alla combinazione di tecnologie che racchiude tutte le caratteristiche descritte. Oggi, tuttavia, esiste un'enorme varietà di blockchain con proprietà diverse. Abbiamo bisogno di ulteriori aggettivi per aiutarci a comprendere le caratteristiche della blockchain in questione, come <<aperta, pubblica, globale, decentralizzata, neutrale>> e <<resistente alla censura>>, per identificare le importanti caratteristiche emergenti di un sistema "blockchain" che questi componenti consentono.</p>
+<pp>Le varie blockhain</pp>
+<p>Non tutte le blockchain sono uguali. Quando qualcuno ti dice che qualcosa è una blockchain, non hai ricevuto risposta; piuttosto, devi fare molte domande per chiarire cosa si intende quando viene usata la parola "blockchain". Inizia chiedendo una descrizione dei componenti nell'elenco precedente, quindi chiedi se questa "blockchain" è <<aperta, pubblica>>, ecc.</p>
+<tit>La nascita di Ethereum</tit>
+<pp>I limiti del Bitcoin</pp>
+<p>Tutte le grandi innovazioni risolvono problemi reali ed Ethereum non fa eccezione. Ethereum fu concepito in un momento in cui le persone riconoscevano il potere del modello Bitcoin e stavano cercando di andare oltre le applicazioni di criptovaluta. Ma gli sviluppatori dovettero affrontare un dilemma: dovevano costruire su Bitcoin o avviare una nuova blockchain? Costruire su Bitcoin significava vivere entro i vincoli intenzionali della rete e cercare di trovare soluzioni alternative. L'insieme limitato di tipi di transazioni, di tipi di dati e dimensioni dell'archiviazione dei dati sembrava limitare i tipi di applicazioni che potevano essere eseguite direttamente su Bitcoin; qualsiasi altra cosa necessitava di ulteriori livelli off-chain e questo immediatamente annullava molti dei vantaggi dell'utilizzo di una blockchain pubblica. Per i progetti che necessitavano di maggiore libertà e flessibilità pur rimanendo on-chain, una nuova blockchain era l'unica opzione. Ma ciò significava molto lavoro: il bootstrap di tutti gli elementi dell'infrastruttura, test approfonditi, ecc.</p>
+<pp>
+<pp>La proposta di Vitalik Buterin</pp>
+<p>Verso la fine del 2013, Vitalik Buterin, un giovane programmatore e appassionato di Bitcoin, iniziò a pensare di estendere ulteriormente le capacità di Bitcoin e Mastercoin (un protocollo di sovrapposizione che estendeva Bitcoin per offrire smart contract rudimentali). Nell'ottobre di quell'anno, Vitalik propose un approccio più generalizzato al team Mastercoin, uso che consentisse contratti flessibili e scriptabili (ma non Turing-completi) per sostituire il linguaggio contrattuale specializzato di Mastercoin. Sebbene il team di Mastercoin fosse impressionato, questa proposta era un cambiamento troppo radicale per adattarsi alla loro roadmap di sviluppo.</p>
+<pp>Il whitepaper di Vitalik</pp>
+<p>Nel dicembre 2013, Vitalik iniziò a condividere un whitepaper che delineava l'idea alla base di Ethereum: una blockchain Turing completa e per tutti gli usi. Alcune dozzine di persone videro questa prima bozza e hanno offrirono feedback, aiutando Vitalik a sviluppare la proposta.</p>
+<pp>Il coinvolgimento di Gavin Wood in Ethereum</pp>
+<p>Entrambi gli autori di questo libro ricevettero una prima bozza del whitepaper e la commentarono. Andreas M. Antonopoulos fu incuriosito dall'idea e pose a Vitalik molte domande sull'uso di una blockchain separata per far rispettare le regole di consenso sull'esecuzione di contratti intelligenti e le implicazioni di un linguaggio completo di Turing. Andreas continuò a seguire i progressi di Ethereum con grande interesse, ma era nelle prime fasi della scrittura del suo libro <<Mastering Bitcoin>> e non ha partecipò direttamente ad Ethereum fino a molto tempo dopo. Il Dr. Gavin Wood, tuttavia, fu una delle prime persone a contattare Vitalik e ad offrirsi di aiutarla con le sue capacità di programmazione C++. Gavin divenne diventato cofondatore, codesigner e CTO di Ethereum.</p>
+<pp>Ethereum viene concepito come una piattaforma di calcolo e smart contract</pp>
+<p>Come racconta Vitalik nel suo post "Ethereum Prehistory":</p>
+<q><p>Fino a quel momento il protocollo Ethereum era interamente una mia creazione. Da qui in poi, tuttavia, nuovi partecipanti iniziarono a unirsi al progetto. Di gran lunga il più importante sul lato del protocollo fu Gavin Wood…​</q>
+<p>A Gavin può anche essere ampiamente attribuito il sottile cambiamento di visione dalla visione di Ethereum come una piattaforma per la creazione di denaro programmabile, con contratti basati su blockchain che possono contenere risorse digitali e trasferirle secondo regole prestabilite, a una piattaforma informatica generica. Questo iniziò con sottili cambiamenti nell'enfasi e nella terminologia, e in seguito questa influenza divenne più forte con la crescente enfasi sull'@ensemble "Web 3", che vide Ethereum come parte di una suite di tecnologie decentralizzate, le altre due della quale sono Whisper e Swarm.</p></q>
+<p>A partire da dicembre 2013, Vitalik e Gavin perfezionarono ed migliorarono l'idea, costruendo insieme il livello di protocollo che divenne Ethereum.</p>
+<pp>Ethereum come blockchain programmabile@</pp>
+<p>I fondatori di Ethereum stavano pensavano a una blockchain senza uno scopo specifico, che potesse supportare un'ampia varietà di applicazioni venendo <<programmata>>. L'idea era che utilizzando una blockchain generica come Ethereum, uno sviluppatore potesse programmare la sua particolare applicazione senza dover implementare i meccanismi sottostanti di reti peer-to-peer, blockchain, algoritmi di consenso, ecc. La piattaforma Ethereum fu progettata per astrarre questi dettagli e fornire un ambiente di programmazione deterministico e sicuro per applicazioni blockchain decentralizzate.</p>
+<pp>Ethereum: non solo una tecnologia</pp>
+<p>Proprio come Satoshi, Vitalik e Gavin non hanno solo inventarono una nuova tecnologia; hanno combinato le nuove invenzioni con le tecnologie esistenti in un modo nuovo e consegnarono il codice prototipo per dimostrare le loro idee al mondo.</p>
+<pp>Il primo blocco viene estratto</pp>
+<p>I fondatori hanno lavorarono per anni, costruendo e affinando la loro visione. E il 30 luglio 2015 venne estratto il primo blocco Ethereum. Il computer mondiale iniziò a servire il mondo.</p>
+<nt><p>L'articolo di Vitalik Buterin "A Prehistory of Ethereum" fu pubblicato a settembre 2017 e fornisce un'affascinante visione in prima persona dei primi momenti di Ethereum.</p>
+<p>Puoi leggerlo su https://vitalik.ca/general/2017/09/14/prehistory.html.</p>
+</nt>
+<tit>Le quattro fasi di sviluppo di Ethereum</tit>
+<p>Lo sviluppo di Ethereum è pianificato in quattro fasi distinte, con importanti cambiamenti che si verificano in ogni fase. Una fase può includere sottorelease, note come "hard fork", che modificano la funzionalità in un modo non compatibile con le versioni precedenti.</p>
+<p>Le quattro principali fasi di sviluppo sono denominate in codice <<Frontier, Homestead, Metropolis>> e <<Serenity>>. Gli hard fork intermedi che si sono verificati fino ad oggi sono chiamati in codice <<Ice Age, DAO, Tangerine Whistle, Spurious Dragon, Byzantium, Constantinople/St. Petersburg, Istanbul>> e <<Muir Glacier>>. Sia le fasi di sviluppo che gli hard fork intermedi sono mostrati nella seguente timeline, che è "datata" per numero di blocco:</p>
+</les>

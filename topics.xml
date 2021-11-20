@@ -1,0 +1,18 @@
+<topics>
+<topic>
+<name>Digital marketing</name>
+<desc>Corso di marketing digitale, con particolare attenzione al web marketing e al social media marketing.</desc>
+<src>digital-marketing</src>
+</topic>
+<topic>
+<name>Bitcoin</name>
+<desc>Introduzione al Bitcoin e alla blochchain.</desc>
+<src>bitcoin</src>
+</topic>
+<topic>
+<name>Ethereum</name>
+<desc>Introduzione alla piattaforma di calcolo Ethereum, agli smart contract ed alla criptovaluta Ether.</desc>
+<!--<desc>Introduzione alla piattaforma di calcolo Ethereum, agli <em>smart contract</em> ed alla criptovaluta <em>Ether</em>.</desc>-->
+<src>ethereum</src>
+</topic>
+</topics>
